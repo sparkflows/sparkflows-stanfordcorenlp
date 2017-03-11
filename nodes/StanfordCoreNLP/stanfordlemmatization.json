@@ -1,0 +1,11 @@
+{
+  "id": "7",
+  "name": "StanfordLemmatization",
+  "type": "transform",
+  "description": "This node performs Lemmatization with Stanford NLP on the given input column. Refer http://www.sparkflows.io/nodes-nlp for steps to install models.jar",
+  "nodeClass": "fire.nodes.stanfordnlp.NodeStanfordLemmatization",
+  "fields" : [
+    {"name":"inputCol", "value":"", "widget": "variable", "description": "Column containing the text for Lemmatization ", "title": "Text Column"},
+    {"name":"outputCol", "value":"Lemm", "widget": "textfield", "description": "Output column containing the result of Lemmatization", "title": "Lemmatization Column"}
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "id": "7",
+  "name": "StanfordPOS",
+  "type": "transform",
+  "description": "This node performs Part-Of-Speech with Stanford NLP on the given input column. Refer http://www.sparkflows.io/nodes-nlp for steps to install models.jar",
+  "nodeClass": "fire.nodes.stanfordnlp.NodeStanfordPOS",
+  "fields" : [
+    {"name":"inputCol", "value":"", "widget": "variable","description": "Column containing the text for PartOfSpecch ", "title": "Text Column"},
+    {"name":"outputCol", "value":"POS", "widget": "textfield", "description": "Output column containing the result of PartOfSpecch", "title": "POS Column"}
+  ]
+}

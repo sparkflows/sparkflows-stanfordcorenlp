@@ -1,0 +1,13 @@
+{
+  "id": "7",
+  "name": "StanfordNLPSentiment",
+  "description": "This node performs Sentiment Analysis with Stanford NLP on the given input column. Refer http://www.sparkflows.io/nodes-nlp for steps to install models.jar",
+  "type": "transform",
+  "nodeClass": "fire.nodes.stanfordnlp.NodeStanfordNLPSentiment",
+  "fields" : [
+    {"name":"inputCol", "value":"text", "widget": "variable", "title": "Input Column for Sentiment",
+                "description": "Column containing the text for sentiment analysis"},
+    {"name":"outputCol", "value":"sentiment", "widget": "textfield", "title": "Output Column for Sentiment",
+                "description": "Output column containing the result of sentiment analysis"}
+  ]
+}
