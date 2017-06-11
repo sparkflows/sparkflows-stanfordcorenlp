@@ -63,10 +63,9 @@ The details for coding a New Node is here : https://github.com/sparkflows/writin
 
 New nodes written can be made visible in the Sparkflows UI. Thus, the users can start using them immediately.
 
-* Copy the sparkflows-stanfordcorenlp-1.4.0-jar-with-dependencies.jar to user-lib directory of the sparkflows install
-* Copy the nodes/StanfordCoreNLP directory into the nodes directory of the sparkflows instlal
+* Copy the sparkflows-stanfordcorenlp-1.4.0-jar-with-dependencies.jar to fire-lib directory of the sparkflows install
+* Copy the nodes/StanfordCoreNLP directory into the nodes directory of the sparkflows install
 * Restart fire-ui
-* Include sparkflows-stanfordcorenlp-1.4.0-jar-with-dependencies.jar for the workflows where it is needed
 
 
 #### Running Stanford NLP in fire-ui
@@ -75,7 +74,7 @@ New nodes written can be made visible in the Sparkflows UI. Thus, the users can 
     - http://stanfordnlp.github.io/CoreNLP/download.html
     - http://search.maven.org/#search%7Cga%7C1%7Ca%3A%22stanford-corenlp%22
 
-- Copy the models jar file into user-lib directory of sparkflows
+- Copy the models jar file into fire-lib directory of sparkflows
 
 - Restart the sparkflows server
 
