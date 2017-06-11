@@ -36,6 +36,15 @@ Writing new Node depends on the Fire jar file. The Fire jar file provides the pa
 
     mvn package
 
+### Build a smaller Jar file with dependencies
+
+    fire-core jar contains a number of dependencies. So, these do not have to be included again.
+    poms.xml marks various dependencies as provided.
+
+    Use the below to create a small jar file with just the additional stanford core nlp dependent jars.
+
+    mvn -f poms.xml package
+
 # Running the workflow on a Spark Cluster
 
 Use the command below to load example data onto HDFS. It is then used by the example Workflow.
