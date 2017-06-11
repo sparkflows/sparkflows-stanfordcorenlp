@@ -33,6 +33,7 @@
       <groupId>fire</groupId>
       <artifactId>fire-core</artifactId>
       <version>1.4.0</version>
+      <scope>provided</scope>
     </dependency>
 
     <dependency>
@@ -40,6 +41,7 @@
       <artifactId>stanford-corenlp</artifactId>
       <version>${corenlp.version}</version>
       <classifier>models</classifier>
+      <scope>provided</scope>
     </dependency>
 
 
@@ -53,48 +55,56 @@
       <groupId>org.apache.spark</groupId>
       <artifactId>spark-core_2.10</artifactId>
       <version>${spark.version}</version>
+      <scope>provided</scope>
     </dependency>
 
     <dependency> <!-- Spark dependency -->
       <groupId>org.apache.spark</groupId>
       <artifactId>spark-sql_2.10</artifactId>
       <version>${spark.version}</version>
+      <scope>provided</scope>
     </dependency>
 
     <dependency> <!-- Spark dependency -->
       <groupId>org.apache.spark</groupId>
       <artifactId>spark-repl_2.10</artifactId>
       <version>${spark.version}</version>
+      <scope>provided</scope>
     </dependency>
 
     <dependency>
       <groupId>org.scala-lang</groupId>
       <artifactId>scala-compiler</artifactId>
       <version>${scala.version}</version>
+      <scope>provided</scope>
     </dependency>
 
     <dependency>
       <groupId>org.scala-lang</groupId>
       <artifactId>scala-reflect</artifactId>
       <version>${scala.version}</version>
+      <scope>provided</scope>
     </dependency>
 
     <dependency>
       <groupId>org.scala-lang</groupId>
       <artifactId>scala-library</artifactId>
       <version>${scala.version}</version>
+      <scope>provided</scope>
     </dependency>
 
     <dependency>
       <groupId>org.scala-lang</groupId>
       <artifactId>scala-actors</artifactId>
       <version>${scala.version}</version>
+      <scope>provided</scope>
     </dependency>
 
     <dependency>
       <groupId>org.scala-lang</groupId>
       <artifactId>scalap</artifactId>
       <version>${scala.version}</version>
+      <scope>provided</scope>
     </dependency>
 
     <dependency>
