@@ -34,16 +34,16 @@ Writing new Node depends on the Fire jar file. The Fire jar file provides the pa
     
 ### Build with Maven
 
-    mvn package
+    mvn clean package
 
 ### Build a smaller Jar file with dependencies
 
     fire-core jar contains a number of dependencies. So, these do not have to be included again.
-    poms.xml marks various dependencies as provided.
+    pom-provided.xml marks various dependencies as provided.
 
     Use the below to create a small jar file with just the additional stanford core nlp dependent jars.
 
-    mvn -f poms.xml package
+    mvn -f pom-provided.xml clean package
 
 # Running the workflow on a Spark Cluster
 
