@@ -9,3 +9,10 @@
     {"name":"outputCol", "value":"Lemm", "widget": "textfield", "description": "Output column containing the result of Lemmatization", "title": "Lemmatization Column"}
   ]
 }
+
+start-details:
+
+This node performs Lemmatization with Stanford NLP on the given input column. Lemmatization in linguistics is the process of grouping together the inflected forms of a word so they can be analyzed as a single item.
+
+end-details:
+
